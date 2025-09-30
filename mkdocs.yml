@@ -1,7 +1,9 @@
 
-docs_dir: docs
+site_name: "mkdocs bootswatch template"
 
-site_name: Project Chimba Trading Automation
+site_favicon: favicon.svg
+
+docs_dir: docs
 
 theme:
 
@@ -12,19 +14,20 @@ theme:
     ##
     ## List of theme values:
     ##
-    ##     mkdocs, readthedocs, material, cerulean, cosmo, 
+    ##     mkdocs, readthedocs, material, cerulean, cosmo,
     ##     cyborg, darkly, flatly, journal, litera, lumen, lux,
     ##     materia, minty, pulse, sandstone, simplex, slate, solar,
-    ##     spacelab, superhero, united, yeti 
+    ##     spacelab, superhero, united, yeti
     ##
-        
-    name: material
-    
-    ## 
+
+    name: pulse
+
+    ##
     ## you can alternate colors for the navigation header.
     ##
     ## Allowed values: primary (the default), dark, and light:
     ##
-    
+
     nav_style: primary
 
+extra_css: [styling.css]

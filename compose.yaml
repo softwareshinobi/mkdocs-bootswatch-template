@@ -1,12 +1,10 @@
-version: "3"
-
 services:
 
-    kompose-docs:
+    mkdocs-bootswatch-template:
 
-        container_name: kompose-docs
+        container_name: mkdocs-bootswatch-template
 
-        image: softwareshinobi/kompose-docs
+        image: softwareshinobi/mkdocs-bootswatch-template
 
         build: 
 
@@ -18,5 +16,4 @@ services:
   
         ports:
 
-            - 8888:80
-            
+            - 8000:80
